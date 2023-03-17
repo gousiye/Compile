@@ -1,0 +1,9 @@
+extern printi(int val)
+  int a=1;
+  int b=0;
+  while (a < 9) a = a + 1;
+  if ( a ==9){
+    printi(a);
+    a = 99;
+  }
+  printi(a);
